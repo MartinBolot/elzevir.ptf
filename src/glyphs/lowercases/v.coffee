@@ -21,7 +21,7 @@ exports.glyphs['v'] =
 			closed: false
 			nodes:
 				0:
-					x: spacingLeft + (76)
+					x: spacingLeft + (76/90) * thickness
 					y: xHeight - Math.max( 0, serifHeight * serifArc )
 					typeOut: 'line'
 					expand: Object({

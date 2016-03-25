@@ -51,7 +51,7 @@ exports.glyphs['q'] =
 						distr: 0
 					})
 				2:
-					x: spacingLeft + (23)
+					x: spacingLeft + (23/90) * thickness
 					y: ( 230 / 500 ) * xHeight
 					dirOut: - 90 + 'deg'
 					type: 'smooth'

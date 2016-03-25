@@ -25,7 +25,7 @@ exports.glyphs['k'] =
 			closed: false
 			nodes:
 				0:
-					x: spacingLeft + (21)
+					x: spacingLeft + (21/90) * thickness
 					y: 0 + serifHeight + serifCurve
 					typeOut: 'line'
 					expand: Object({

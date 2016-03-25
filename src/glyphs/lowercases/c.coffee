@@ -8,7 +8,7 @@ exports.glyphs['c'] =
 		['skewX', slant + 'deg']
 	)
 	parameters:
-		spacingLeft: 50 * spacing + (0)
+		spacingLeft: 50 * spacing
 		spacingRight: 50 * spacing
 	tags: [
 		'all',
@@ -51,7 +51,7 @@ exports.glyphs['c'] =
 						distr: 0
 					})
 				2:
-					x: spacingLeft + ( 24 / 90 ) * thickness
+					x: spacingLeft + (24/90) * thickness
 					y: ( 240 / 500 ) * xHeight
 					dirOut: 90 + 'deg'
 					type: 'smooth'

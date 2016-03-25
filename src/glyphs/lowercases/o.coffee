@@ -8,7 +8,7 @@ exports.glyphs['o'] =
 		['skewX', slant + 'deg']
 	)
 	parameters:
-		spacingLeft: 50 * spacing + ( (25) / 90 ) * thickness
+		spacingLeft: 50 * spacing
 		spacingRight: 50 * spacing
 	tags: [
 		'all',
@@ -27,7 +27,7 @@ exports.glyphs['o'] =
 			closed: true
 			nodes:
 				0:
-					x: spacingLeft
+					x: spacingLeft + (25/90) * thickness
 					y: xHeight * ( 250 / 500 )
 					dirOut: 90 + 'deg'
 					expand: Object({

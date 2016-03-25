@@ -11,7 +11,7 @@ exports.glyphs['z'] =
 		['skewX', slant + 'deg']
 	)
 	parameters:
-		spacingLeft: 45 * spacing + (0)
+		spacingLeft: 45 * spacing
 		spacingRight: 50 * spacing
 	tags: [
 		'all',

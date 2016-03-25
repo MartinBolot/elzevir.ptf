@@ -8,7 +8,7 @@ exports.glyphs['b'] =
 		['skewX', slant + 'deg']
 	)
 	parameters:
-		spacingLeft: 95 * spacing + (22) + ( serifWidth - 75 )
+		spacingLeft: 95 * spacing + ( serifWidth - 75 )
 		spacingRight: 55 * spacing
 	tags: [
 		'all',
@@ -24,7 +24,7 @@ exports.glyphs['b'] =
 			closed: false
 			nodes:
 				2:
-					x: spacingLeft
+					x: spacingLeft + (22/90) * thickness 
 					y: ascenderHeight - serifHeight - serifCurve * spurHeight
 					typeOut: 'line'
 					expand: Object({
